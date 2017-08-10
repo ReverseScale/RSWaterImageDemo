@@ -16,8 +16,8 @@
 		34787A881F3C0D88009ED25C /* RSWaterImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A871F3C0D88009ED25C /* RSWaterImageDemoTests.m */; };
 		34787A931F3C0D88009ED25C /* RSWaterImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A921F3C0D88009ED25C /* RSWaterImageDemoUITests.m */; };
 		34787AA21F3C272C009ED25C /* RSWaterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787AA11F3C272C009ED25C /* RSWaterImage.m */; };
-		34787AA81F3C2BB8009ED25C /* scene.png in Resources */ = {isa = PBXBuildFile; fileRef = 34787AA71F3C2BB8009ED25C /* scene.png */; };
-		34787AAC1F3C2ED9009ED25C /* IconLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34787AAB1F3C2ED9009ED25C /* IconLogo.png */; };
+		34787AA81F3C2BB8009ED25C /* scenes.png in Resources */ = {isa = PBXBuildFile; fileRef = 34787AA71F3C2BB8009ED25C /* scenes.png */; };
+		34787AAC1F3C2ED9009ED25C /* iconLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34787AAB1F3C2ED9009ED25C /* iconLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		34787A941F3C0D88009ED25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34787AA01F3C272C009ED25C /* RSWaterImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSWaterImage.h; sourceTree = "<group>"; };
 		34787AA11F3C272C009ED25C /* RSWaterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSWaterImage.m; sourceTree = "<group>"; };
-		34787AA71F3C2BB8009ED25C /* scene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene.png; sourceTree = "<group>"; };
-		34787AAB1F3C2ED9009ED25C /* IconLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconLogo.png; sourceTree = "<group>"; };
+		34787AA71F3C2BB8009ED25C /* scenes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scenes.png; sourceTree = "<group>"; };
+		34787AAB1F3C2ED9009ED25C /* iconLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 		34787A6C1F3C0D88009ED25C /* RSWaterImageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				34787AA71F3C2BB8009ED25C /* scene.png */,
-				34787AAB1F3C2ED9009ED25C /* IconLogo.png */,
+				34787AA71F3C2BB8009ED25C /* scenes.png */,
+				34787AAB1F3C2ED9009ED25C /* iconLogo.png */,
 				34787A701F3C0D88009ED25C /* AppDelegate.h */,
 				34787A711F3C0D88009ED25C /* AppDelegate.m */,
 				34787A731F3C0D88009ED25C /* ViewController.h */,
@@ -258,10 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34787AAC1F3C2ED9009ED25C /* IconLogo.png in Resources */,
+				34787AAC1F3C2ED9009ED25C /* iconLogo.png in Resources */,
 				34787A7D1F3C0D88009ED25C /* LaunchScreen.storyboard in Resources */,
 				34787A7A1F3C0D88009ED25C /* Assets.xcassets in Resources */,
-				34787AA81F3C2BB8009ED25C /* scene.png in Resources */,
+				34787AA81F3C2BB8009ED25C /* scenes.png in Resources */,
 				34787A781F3C0D88009ED25C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +526,7 @@
 				34787A991F3C0D88009ED25C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34787A9A1F3C0D88009ED25C /* Build configuration list for PBXNativeTarget "RSWaterImageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				34787A9C1F3C0D88009ED25C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34787A9D1F3C0D88009ED25C /* Build configuration list for PBXNativeTarget "RSWaterImageDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				34787A9F1F3C0D88009ED25C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

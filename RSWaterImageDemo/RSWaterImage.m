@@ -20,7 +20,7 @@
     
     //设置水印的大小方位，以及将水印上下文保存
     UIImage *water = [UIImage imageNamed:logo];
-    [water drawInRect:CGRectMake(imageExample.size.width - 60, imageExample.size.height - 60, 60, 50)];
+    [water drawInRect:CGRectMake(imageExample.size.width - 80, imageExample.size.height - 80, 50, 50)];
     
     //从图形上下文中获取制作完毕的图像
     UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
