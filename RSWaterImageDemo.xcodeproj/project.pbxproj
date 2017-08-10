@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34787A6F1F3C0D88009ED25C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A6E1F3C0D88009ED25C /* main.m */; };
+		34787A721F3C0D88009ED25C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A711F3C0D88009ED25C /* AppDelegate.m */; };
+		34787A751F3C0D88009ED25C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A741F3C0D88009ED25C /* ViewController.m */; };
+		34787A781F3C0D88009ED25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34787A761F3C0D88009ED25C /* Main.storyboard */; };
+		34787A7A1F3C0D88009ED25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34787A791F3C0D88009ED25C /* Assets.xcassets */; };
+		34787A7D1F3C0D88009ED25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34787A7B1F3C0D88009ED25C /* LaunchScreen.storyboard */; };
+		34787A881F3C0D88009ED25C /* RSWaterImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A871F3C0D88009ED25C /* RSWaterImageDemoTests.m */; };
+		34787A931F3C0D88009ED25C /* RSWaterImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A921F3C0D88009ED25C /* RSWaterImageDemoUITests.m */; };
+		34787AA21F3C272C009ED25C /* RSWaterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787AA11F3C272C009ED25C /* RSWaterImage.m */; };
+		34787AA81F3C2BB8009ED25C /* scene.png in Resources */ = {isa = PBXBuildFile; fileRef = 34787AA71F3C2BB8009ED25C /* scene.png */; };
+		34787AAC1F3C2ED9009ED25C /* IconLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34787AAB1F3C2ED9009ED25C /* IconLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34787A841F3C0D88009ED25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34787A621F3C0D88009ED25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34787A691F3C0D88009ED25C;
+			remoteInfo = RSWaterImageDemo;
+		};
+		34787A8F1F3C0D88009ED25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34787A621F3C0D88009ED25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34787A691F3C0D88009ED25C;
+			remoteInfo = RSWaterImageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34787A6A1F3C0D88009ED25C /* RSWaterImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSWaterImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34787A6E1F3C0D88009ED25C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34787A701F3C0D88009ED25C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34787A711F3C0D88009ED25C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34787A731F3C0D88009ED25C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34787A741F3C0D88009ED25C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34787A771F3C0D88009ED25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34787A791F3C0D88009ED25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34787A7C1F3C0D88009ED25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34787A7E1F3C0D88009ED25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34787A831F3C0D88009ED25C /* RSWaterImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSWaterImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34787A871F3C0D88009ED25C /* RSWaterImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSWaterImageDemoTests.m; sourceTree = "<group>"; };
+		34787A891F3C0D88009ED25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34787A8E1F3C0D88009ED25C /* RSWaterImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSWaterImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34787A921F3C0D88009ED25C /* RSWaterImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSWaterImageDemoUITests.m; sourceTree = "<group>"; };
+		34787A941F3C0D88009ED25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34787AA01F3C272C009ED25C /* RSWaterImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSWaterImage.h; sourceTree = "<group>"; };
+		34787AA11F3C272C009ED25C /* RSWaterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSWaterImage.m; sourceTree = "<group>"; };
+		34787AA71F3C2BB8009ED25C /* scene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene.png; sourceTree = "<group>"; };
+		34787AAB1F3C2ED9009ED25C /* IconLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34787A671F3C0D88009ED25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787A801F3C0D88009ED25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787A8B1F3C0D88009ED25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34787A611F3C0D88009ED25C = {
+			isa = PBXGroup;
+			children = (
+				34787A6C1F3C0D88009ED25C /* RSWaterImageDemo */,
+				34787A861F3C0D88009ED25C /* RSWaterImageDemoTests */,
+				34787A911F3C0D88009ED25C /* RSWaterImageDemoUITests */,
+				34787A6B1F3C0D88009ED25C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34787A6B1F3C0D88009ED25C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34787A6A1F3C0D88009ED25C /* RSWaterImageDemo.app */,
+				34787A831F3C0D88009ED25C /* RSWaterImageDemoTests.xctest */,
+				34787A8E1F3C0D88009ED25C /* RSWaterImageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34787A6C1F3C0D88009ED25C /* RSWaterImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34787AA71F3C2BB8009ED25C /* scene.png */,
+				34787AAB1F3C2ED9009ED25C /* IconLogo.png */,
+				34787A701F3C0D88009ED25C /* AppDelegate.h */,
+				34787A711F3C0D88009ED25C /* AppDelegate.m */,
+				34787A731F3C0D88009ED25C /* ViewController.h */,
+				34787A741F3C0D88009ED25C /* ViewController.m */,
+				34787AA01F3C272C009ED25C /* RSWaterImage.h */,
+				34787AA11F3C272C009ED25C /* RSWaterImage.m */,
+				34787A761F3C0D88009ED25C /* Main.storyboard */,
+				34787A791F3C0D88009ED25C /* Assets.xcassets */,
+				34787A7B1F3C0D88009ED25C /* LaunchScreen.storyboard */,
+				34787A7E1F3C0D88009ED25C /* Info.plist */,
+				34787A6D1F3C0D88009ED25C /* Supporting Files */,
+			);
+			path = RSWaterImageDemo;
+			sourceTree = "<group>";
+		};
+		34787A6D1F3C0D88009ED25C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34787A6E1F3C0D88009ED25C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34787A861F3C0D88009ED25C /* RSWaterImageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34787A871F3C0D88009ED25C /* RSWaterImageDemoTests.m */,
+				34787A891F3C0D88009ED25C /* Info.plist */,
+			);
+			path = RSWaterImageDemoTests;
+			sourceTree = "<group>";
+		};
+		34787A911F3C0D88009ED25C /* RSWaterImageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34787A921F3C0D88009ED25C /* RSWaterImageDemoUITests.m */,
+				34787A941F3C0D88009ED25C /* Info.plist */,
+			);
+			path = RSWaterImageDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34787A691F3C0D88009ED25C /* RSWaterImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34787A971F3C0D88009ED25C /* Build configuration list for PBXNativeTarget "RSWaterImageDemo" */;
+			buildPhases = (
+				34787A661F3C0D88009ED25C /* Sources */,
+				34787A671F3C0D88009ED25C /* Frameworks */,
+				34787A681F3C0D88009ED25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSWaterImageDemo;
+			productName = RSWaterImageDemo;
+			productReference = 34787A6A1F3C0D88009ED25C /* RSWaterImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34787A821F3C0D88009ED25C /* RSWaterImageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34787A9A1F3C0D88009ED25C /* Build configuration list for PBXNativeTarget "RSWaterImageDemoTests" */;
+			buildPhases = (
+				34787A7F1F3C0D88009ED25C /* Sources */,
+				34787A801F3C0D88009ED25C /* Frameworks */,
+				34787A811F3C0D88009ED25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34787A851F3C0D88009ED25C /* PBXTargetDependency */,
+			);
+			name = RSWaterImageDemoTests;
+			productName = RSWaterImageDemoTests;
+			productReference = 34787A831F3C0D88009ED25C /* RSWaterImageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34787A8D1F3C0D88009ED25C /* RSWaterImageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34787A9D1F3C0D88009ED25C /* Build configuration list for PBXNativeTarget "RSWaterImageDemoUITests" */;
+			buildPhases = (
+				34787A8A1F3C0D88009ED25C /* Sources */,
+				34787A8B1F3C0D88009ED25C /* Frameworks */,
+				34787A8C1F3C0D88009ED25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34787A901F3C0D88009ED25C /* PBXTargetDependency */,
+			);
+			name = RSWaterImageDemoUITests;
+			productName = RSWaterImageDemoUITests;
+			productReference = 34787A8E1F3C0D88009ED25C /* RSWaterImageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34787A621F3C0D88009ED25C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34787A691F3C0D88009ED25C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34787A821F3C0D88009ED25C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34787A691F3C0D88009ED25C;
+					};
+					34787A8D1F3C0D88009ED25C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34787A691F3C0D88009ED25C;
+					};
+				};
+			};
+			buildConfigurationList = 34787A651F3C0D88009ED25C /* Build configuration list for PBXProject "RSWaterImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34787A611F3C0D88009ED25C;
+			productRefGroup = 34787A6B1F3C0D88009ED25C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34787A691F3C0D88009ED25C /* RSWaterImageDemo */,
+				34787A821F3C0D88009ED25C /* RSWaterImageDemoTests */,
+				34787A8D1F3C0D88009ED25C /* RSWaterImageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34787A681F3C0D88009ED25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34787AAC1F3C2ED9009ED25C /* IconLogo.png in Resources */,
+				34787A7D1F3C0D88009ED25C /* LaunchScreen.storyboard in Resources */,
+				34787A7A1F3C0D88009ED25C /* Assets.xcassets in Resources */,
+				34787AA81F3C2BB8009ED25C /* scene.png in Resources */,
+				34787A781F3C0D88009ED25C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787A811F3C0D88009ED25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787A8C1F3C0D88009ED25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34787A661F3C0D88009ED25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34787AA21F3C272C009ED25C /* RSWaterImage.m in Sources */,
+				34787A751F3C0D88009ED25C /* ViewController.m in Sources */,
+				34787A721F3C0D88009ED25C /* AppDelegate.m in Sources */,
+				34787A6F1F3C0D88009ED25C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787A7F1F3C0D88009ED25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34787A881F3C0D88009ED25C /* RSWaterImageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34787A8A1F3C0D88009ED25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34787A931F3C0D88009ED25C /* RSWaterImageDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34787A851F3C0D88009ED25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34787A691F3C0D88009ED25C /* RSWaterImageDemo */;
+			targetProxy = 34787A841F3C0D88009ED25C /* PBXContainerItemProxy */;
+		};
+		34787A901F3C0D88009ED25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34787A691F3C0D88009ED25C /* RSWaterImageDemo */;
+			targetProxy = 34787A8F1F3C0D88009ED25C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34787A761F3C0D88009ED25C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34787A771F3C0D88009ED25C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34787A7B1F3C0D88009ED25C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34787A7C1F3C0D88009ED25C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34787A951F3C0D88009ED25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34787A961F3C0D88009ED25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34787A981F3C0D88009ED25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSWaterImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSWaterImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34787A991F3C0D88009ED25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSWaterImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSWaterImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34787A9B1F3C0D88009ED25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSWaterImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSWaterImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSWaterImageDemo.app/RSWaterImageDemo";
+			};
+			name = Debug;
+		};
+		34787A9C1F3C0D88009ED25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSWaterImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSWaterImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSWaterImageDemo.app/RSWaterImageDemo";
+			};
+			name = Release;
+		};
+		34787A9E1F3C0D88009ED25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSWaterImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSWaterImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSWaterImageDemo;
+			};
+			name = Debug;
+		};
+		34787A9F1F3C0D88009ED25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSWaterImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSWaterImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSWaterImageDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34787A651F3C0D88009ED25C /* Build configuration list for PBXProject "RSWaterImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34787A951F3C0D88009ED25C /* Debug */,
+				34787A961F3C0D88009ED25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34787A971F3C0D88009ED25C /* Build configuration list for PBXNativeTarget "RSWaterImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34787A981F3C0D88009ED25C /* Debug */,
+				34787A991F3C0D88009ED25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34787A9A1F3C0D88009ED25C /* Build configuration list for PBXNativeTarget "RSWaterImageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34787A9B1F3C0D88009ED25C /* Debug */,
+				34787A9C1F3C0D88009ED25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34787A9D1F3C0D88009ED25C /* Build configuration list for PBXNativeTarget "RSWaterImageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34787A9E1F3C0D88009ED25C /* Debug */,
+				34787A9F1F3C0D88009ED25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34787A621F3C0D88009ED25C /* Project object */;
+}
