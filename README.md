@@ -9,7 +9,7 @@ OC 图片加水印方法
 
 | 名称 |1.列表页 |2.展示页 |
 | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/49394070.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/43197086.jpg) |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-10/37541756.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-10/37541756.jpg) |
 | 描述 | 通过 storyboard 搭建基本框架 | 加水印展示 |
 
 
