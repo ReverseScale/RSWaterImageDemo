@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345132FC20899108001D186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345132FA20899108001D186E /* LaunchScreen.storyboard */; };
+		345132FD20899108001D186E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 345132FB20899108001D186E /* Default.png */; };
 		34787A6F1F3C0D88009ED25C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A6E1F3C0D88009ED25C /* main.m */; };
 		34787A721F3C0D88009ED25C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A711F3C0D88009ED25C /* AppDelegate.m */; };
 		34787A751F3C0D88009ED25C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A741F3C0D88009ED25C /* ViewController.m */; };
 		34787A781F3C0D88009ED25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34787A761F3C0D88009ED25C /* Main.storyboard */; };
 		34787A7A1F3C0D88009ED25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34787A791F3C0D88009ED25C /* Assets.xcassets */; };
-		34787A7D1F3C0D88009ED25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34787A7B1F3C0D88009ED25C /* LaunchScreen.storyboard */; };
 		34787A881F3C0D88009ED25C /* RSWaterImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A871F3C0D88009ED25C /* RSWaterImageDemoTests.m */; };
 		34787A931F3C0D88009ED25C /* RSWaterImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A921F3C0D88009ED25C /* RSWaterImageDemoUITests.m */; };
 		34787AA21F3C272C009ED25C /* RSWaterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787AA11F3C272C009ED25C /* RSWaterImage.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		345132FA20899108001D186E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		345132FB20899108001D186E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		34787A6A1F3C0D88009ED25C /* RSWaterImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSWaterImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34787A6E1F3C0D88009ED25C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34787A701F3C0D88009ED25C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,7 +49,6 @@
 		34787A741F3C0D88009ED25C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34787A771F3C0D88009ED25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34787A791F3C0D88009ED25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34787A7C1F3C0D88009ED25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34787A7E1F3C0D88009ED25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34787A831F3C0D88009ED25C /* RSWaterImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSWaterImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34787A871F3C0D88009ED25C /* RSWaterImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSWaterImageDemoTests.m; sourceTree = "<group>"; };
@@ -118,7 +120,8 @@
 				34787AA11F3C272C009ED25C /* RSWaterImage.m */,
 				34787A761F3C0D88009ED25C /* Main.storyboard */,
 				34787A791F3C0D88009ED25C /* Assets.xcassets */,
-				34787A7B1F3C0D88009ED25C /* LaunchScreen.storyboard */,
+				345132FB20899108001D186E /* Default.png */,
+				345132FA20899108001D186E /* LaunchScreen.storyboard */,
 				34787A7E1F3C0D88009ED25C /* Info.plist */,
 				34787A6D1F3C0D88009ED25C /* Supporting Files */,
 			);
@@ -259,9 +262,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34787AAC1F3C2ED9009ED25C /* iconLogo.png in Resources */,
-				34787A7D1F3C0D88009ED25C /* LaunchScreen.storyboard in Resources */,
+				345132FD20899108001D186E /* Default.png in Resources */,
 				34787A7A1F3C0D88009ED25C /* Assets.xcassets in Resources */,
 				34787AA81F3C2BB8009ED25C /* scenes.png in Resources */,
+				345132FC20899108001D186E /* LaunchScreen.storyboard in Resources */,
 				34787A781F3C0D88009ED25C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,14 +336,6 @@
 				34787A771F3C0D88009ED25C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		34787A7B1F3C0D88009ED25C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34787A7C1F3C0D88009ED25C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -439,7 +435,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = RSWaterImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -452,7 +447,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = RSWaterImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

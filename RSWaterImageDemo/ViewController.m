@@ -23,7 +23,7 @@
 - (void)setupWaterImage {
     UIImage *image =[RSWaterImage setWaterImageWith:@"scenes" waterName:@"iconLogo"];
     
-    UIImageView *iconView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 330, 260)];
+    UIImageView *iconView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 80, self.view.frame.size.width, 260)];
     [self.view addSubview:iconView];
     iconView.image = image;
 }
