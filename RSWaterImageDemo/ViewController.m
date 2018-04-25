@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "RSWaterImage.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *xibImageView;
 
 @end
 
@@ -17,15 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self setupWaterImage];
-}
-
-- (void)setupWaterImage {
-    UIImage *image =[RSWaterImage setWaterImageWith:@"scenes" waterName:@"iconLogo"];
     
-    UIImageView *iconView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 80, self.view.frame.size.width, 260)];
-    [self.view addSubview:iconView];
-    iconView.image = image;
+    _xibImageView.image = [RSWaterImage setOnImage:[UIImage imageNamed:@"scenes"] waterImageName:@"iconLogo"];
 }
 
 - (void)didReceiveMemoryWarning {

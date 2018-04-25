@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Hut-W5-9YL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Hut-W5-9YL">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,9 +21,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scenes.png" translatesAutoresizingMaskIntoConstraints="NO" id="HJv-LU-4Aa">
+                                <rect key="frame" x="0.0" y="182" width="375" height="303"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HJv-LU-4Aa" secondAttribute="height" multiplier="663:535" id="Sul-FH-gkI"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HJv-LU-4Aa" secondAttribute="trailing" id="0x6-l9-CPh"/>
+                            <constraint firstItem="HJv-LU-4Aa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IMJ-SQ-5cJ"/>
+                            <constraint firstItem="HJv-LU-4Aa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Mp4-2w-dw0"/>
+                            <constraint firstItem="HJv-LU-4Aa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hTR-p5-2nN"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="展示水印" id="z0g-30-Gyk"/>
+                    <connections>
+                        <outlet property="xibImageView" destination="HJv-LU-4Aa" id="NJj-PD-zvR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -33,7 +51,7 @@
             <objects>
                 <navigationController id="Hut-W5-9YL" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8PJ-2x-zxh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -57,7 +75,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RSWaterImageDemo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R74-Kq-unv">
-                                    <rect key="frame" x="63" y="62" width="249" height="33"/>
+                                    <rect key="frame" x="66" y="62" width="243" height="33"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                     <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
@@ -81,18 +99,18 @@
                                         <rect key="frame" x="0.0" y="157" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zjv-RE-V0q" id="oJF-ko-QDc">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="展示水印图片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nt8-VE-4F6">
-                                                    <rect key="frame" x="15" y="13" width="104" height="20.5"/>
+                                                    <rect key="frame" x="16" y="10" width="104" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Show the Water Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FJP-aI-hy6">
-                                                    <rect key="frame" x="15" y="33.5" width="127.5" height="14.5"/>
+                                                    <rect key="frame" x="16" y="33.5" width="127.5" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -115,4 +133,7 @@
             <point key="canvasLocation" x="847" y="139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="scenes.png" width="663" height="535"/>
+    </resources>
 </document>

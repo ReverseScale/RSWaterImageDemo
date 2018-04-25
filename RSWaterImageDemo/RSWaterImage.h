@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RSWaterImage : UIView
-+ (UIImage *)setWaterImageWith:(NSString *)imageName waterName:(NSString *)logo;
++ (UIImage *)setOnImage:(UIImage *)image waterImageName:(NSString *)fileName;
 @end

@@ -9,18 +9,17 @@
 #import "RSWaterImage.h"
 
 @implementation RSWaterImage
-+ (UIImage *)setWaterImageWith:(NSString *)imageName waterName:(NSString *)logo {
-    UIImage *imageExample = [UIImage imageNamed:imageName];
++ (UIImage *)setOnImage:(UIImage *)image waterImageName:(NSString *)fileName {
     //创建基于位图的图形上下文
-    UIGraphicsBeginImageContextWithOptions(imageExample.size, NO, 0.0);
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, 0.0);
     
     //图片水印
     //画背景,给图片创建一个可以显示的地方，添加到上下文中
-    [imageExample drawInRect:CGRectMake(0, 0, imageExample.size.width, imageExample.size.height)];
+    [image drawInRect:CGRectMake(0, 0, image.size.width, image.size.height)];
     
     //设置水印的大小方位，以及将水印上下文保存
-    UIImage *water = [UIImage imageNamed:logo];
-    [water drawInRect:CGRectMake(imageExample.size.width - 80, imageExample.size.height - 80, 50, 50)];
+    UIImage *water = [UIImage imageNamed:fileName];
+    [water drawInRect:CGRectMake(image.size.width - 80, image.size.height - 80, 50, 50)];
     
     //从图形上下文中获取制作完毕的图像
     UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
