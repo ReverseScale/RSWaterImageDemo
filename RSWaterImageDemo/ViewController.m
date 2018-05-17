@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     _xibImageView.image = [RSWaterImage setOnImage:[UIImage imageNamed:@"scenes"] waterImageName:@"iconLogo"];
+
 }
 
 - (void)didReceiveMemoryWarning {

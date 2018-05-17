@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		345132FC20899108001D186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345132FA20899108001D186E /* LaunchScreen.storyboard */; };
 		345132FD20899108001D186E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 345132FB20899108001D186E /* Default.png */; };
+		345EB49520AD6ED50035E733 /* WebImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EB49420AD6ED50035E733 /* WebImageViewController.m */; };
 		34787A6F1F3C0D88009ED25C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A6E1F3C0D88009ED25C /* main.m */; };
 		34787A721F3C0D88009ED25C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A711F3C0D88009ED25C /* AppDelegate.m */; };
 		34787A751F3C0D88009ED25C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34787A741F3C0D88009ED25C /* ViewController.m */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		345132FA20899108001D186E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		345132FB20899108001D186E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		345EB49320AD6ED50035E733 /* WebImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebImageViewController.h; sourceTree = "<group>"; };
+		345EB49420AD6ED50035E733 /* WebImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebImageViewController.m; sourceTree = "<group>"; };
 		34787A6A1F3C0D88009ED25C /* RSWaterImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSWaterImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34787A6E1F3C0D88009ED25C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34787A701F3C0D88009ED25C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				34787A711F3C0D88009ED25C /* AppDelegate.m */,
 				34787A731F3C0D88009ED25C /* ViewController.h */,
 				34787A741F3C0D88009ED25C /* ViewController.m */,
+				345EB49320AD6ED50035E733 /* WebImageViewController.h */,
+				345EB49420AD6ED50035E733 /* WebImageViewController.m */,
 				34787AA01F3C272C009ED25C /* RSWaterImage.h */,
 				34787AA11F3C272C009ED25C /* RSWaterImage.m */,
 				34787A761F3C0D88009ED25C /* Main.storyboard */,
@@ -295,6 +300,7 @@
 				34787A751F3C0D88009ED25C /* ViewController.m in Sources */,
 				34787A721F3C0D88009ED25C /* AppDelegate.m in Sources */,
 				34787A6F1F3C0D88009ED25C /* main.m in Sources */,
+				345EB49520AD6ED50035E733 /* WebImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--展示水印-->
+        <!--展示水印 本地-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -37,7 +37,7 @@
                             <constraint firstItem="HJv-LU-4Aa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hTR-p5-2nN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="展示水印" id="z0g-30-Gyk"/>
+                    <navigationItem key="navigationItem" title="展示水印 本地" id="z0g-30-Gyk"/>
                     <connections>
                         <outlet property="xibImageView" destination="HJv-LU-4Aa" id="NJj-PD-zvR"/>
                     </connections>
@@ -88,7 +88,7 @@
                             </constraints>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="Lu2-Rx-e8q">
-                            <rect key="frame" x="0.0" y="217" width="375" height="164"/>
+                            <rect key="frame" x="0.0" y="277" width="375" height="164"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
@@ -102,15 +102,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="展示水印图片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nt8-VE-4F6">
-                                                    <rect key="frame" x="16" y="10" width="104" height="20.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="展示水印图片(本地图片)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nt8-VE-4F6">
+                                                    <rect key="frame" x="16" y="10" width="185.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Show the Water Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FJP-aI-hy6">
-                                                    <rect key="frame" x="16" y="33.5" width="127.5" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Show the Water Image（Local picture）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FJP-aI-hy6">
+                                                    <rect key="frame" x="16" y="33.5" width="225" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -122,6 +122,33 @@
                                             <segue destination="BYZ-38-t0r" kind="push" id="4hZ-6U-cOa"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="fpU-oJ-Thu" detailTextLabel="4Nn-hN-Dgu" style="IBUITableViewCellStyleSubtitle" id="Xjv-xd-74F">
+                                        <rect key="frame" x="0.0" y="217" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xjv-xd-74F" id="4wT-Lg-axA">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="展示水印图片(网络图片)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fpU-oJ-Thu">
+                                                    <rect key="frame" x="16" y="10" width="185.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Show the Water Image（Web picture）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Nn-hN-Dgu">
+                                                    <rect key="frame" x="16" y="33.5" width="220.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5lU-1U-Ak5" kind="push" id="4ra-33-p1w"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -131,6 +158,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GSJ-rO-sMG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="847" y="139"/>
+        </scene>
+        <!--展示水印 网络-->
+        <scene sceneID="0Ga-XW-kqg">
+            <objects>
+                <viewController id="5lU-1U-Ak5" customClass="WebImageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0C0-vo-N83"/>
+                        <viewControllerLayoutGuide type="bottom" id="iDo-ZP-Vib"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YhI-SQ-h5C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scenes.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ubf-zd-cTb">
+                                <rect key="frame" x="0.0" y="182" width="375" height="303"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ubf-zd-cTb" secondAttribute="height" multiplier="663:535" id="CNX-SV-4Bs"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ubf-zd-cTb" secondAttribute="trailing" id="5AY-6Y-CAi"/>
+                            <constraint firstItem="Ubf-zd-cTb" firstAttribute="centerY" secondItem="YhI-SQ-h5C" secondAttribute="centerY" id="Pxq-wH-1nJ"/>
+                            <constraint firstItem="Ubf-zd-cTb" firstAttribute="centerX" secondItem="YhI-SQ-h5C" secondAttribute="centerX" id="WsY-Ye-eao"/>
+                            <constraint firstItem="Ubf-zd-cTb" firstAttribute="leading" secondItem="YhI-SQ-h5C" secondAttribute="leading" id="axz-5z-b6Z"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="展示水印 网络" id="2ln-sF-76O"/>
+                    <connections>
+                        <outlet property="xibImageView" destination="Ubf-zd-cTb" id="4ph-mw-vzP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Jg-5o-etm" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1639" y="-223"/>
         </scene>
     </scenes>
     <resources>
